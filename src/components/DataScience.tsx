@@ -5,14 +5,14 @@ export function DataScience() {
         <h2 className="text-4xl md:text-[5vw] leading-[1.1] font-display font-medium text-gray-900 tracking-tight max-w-5xl inline-block">
           Pixels don't lie
           <br />
-          so we use Smart 
+          so we use Smart
           <span className="inline-block align-middle mx-4 w-24 h-12 md:w-32 md:h-16 rounded-full overflow-hidden relative shadow-inner grayscale">
-             <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=200" className="w-full h-full object-cover" alt="Data texture" />
+             <div className="w-full h-full bg-gradient-to-br from-gray-900 to-gray-700" />
           </span>
           Automations to drive
           <br />
           <span className="inline-block align-middle mx-4 w-28 h-12 md:w-40 md:h-16 rounded-full overflow-hidden relative shadow-inner blur-[1px]">
-             <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200" className="w-full h-full object-cover" alt="Growth texture" />
+             <div className="w-full h-full bg-gradient-to-br from-gray-900 to-gray-700" />
           </span>
           <span className="text-gray-500 italic font-serif opacity-80">
             agency outputs

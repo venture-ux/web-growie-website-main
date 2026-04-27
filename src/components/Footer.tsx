@@ -12,7 +12,7 @@ export function Footer() {
                 We supply clients across the entire globe with improved network connections.
               </p>
             </div>
-            
+
             <div className="flex gap-4 mt-12 md:mt-24">
               {/* Badges/Awards placeholder */}
               <div className="w-16 h-16 rounded-full border border-gray-200 flex items-center justify-center">
@@ -23,7 +23,7 @@ export function Footer() {
               </div>
             </div>
           </div>
-          
+
           <div className="flex-1 max-w-4xl">
             <div className="relative">
               <span className="absolute -left-12 -top-8 text-7xl font-serif text-gray-900 leading-none">"</span>
@@ -31,16 +31,16 @@ export function Footer() {
                 FANTASTIK has completely revolutionized our content pipeline. We used to spend days on carousels and posters, now everything is generated at an agency-standard quality instantly. They excel in programmatic graphics and big-picture scale.
               </p>
             </div>
-            
+
             <div className="flex items-center justify-between border-t border-gray-100 pt-8 mt-8">
               <div className="flex items-center gap-4">
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150" alt="Lexie Ernst" className="w-12 h-12 rounded-full object-cover" />
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23e5e7eb'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%239ca3af'/%3E%3Cellipse cx='50' cy='90' rx='28' ry='22' fill='%239ca3af'/%3E%3C/svg%3E" alt="Sarah K." className="w-12 h-12 rounded-full object-cover" />
                 <div>
-                  <h4 className="text-base font-bold text-gray-900">Lexie Ernst</h4>
-                  <p className="text-sm text-gray-500">CEO</p>
+                  <h4 className="text-base font-bold text-gray-900">Sarah K.</h4>
+                  <p className="text-sm text-gray-500">Head of Growth</p>
                 </div>
               </div>
-              
+
               <div className="flex gap-2">
                 <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-gray-900 hover:border-gray-400 transition-colors">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
@@ -62,7 +62,7 @@ export function Footer() {
                FANTASTIK
              </div>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 border-b border-gray-300 pb-20 mb-10">
             {/* CTA */}
             <div className="col-span-1 md:col-span-5">
@@ -76,19 +76,19 @@ export function Footer() {
                  <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
                  Become a Client <ArrowUpRight className="w-4 h-4 ml-2" />
                </button>
-               
+
                <div>
                  <p className="text-sm font-bold text-gray-900 mb-1">Don't like the forms? Drop us a line via email.</p>
                  <a href="mailto:hello@fantastik.io" className="text-sm font-bold text-gray-900 underline decoration-gray-400 underline-offset-4 hover:decoration-gray-900">hello@fantastik.io</a>
                </div>
             </div>
-            
+
             {/* Spacer */}
             <div className="hidden md:block col-span-3"></div>
 
             {/* Links */}
             <div className="col-span-1 md:col-span-4 grid grid-cols-3 gap-8">
-               
+
                <div>
                  <h5 className="font-bold text-xs uppercase tracking-wider mb-6 text-gray-900">Contact Us</h5>
                  <div className="space-y-6">
@@ -125,10 +125,10 @@ export function Footer() {
                    ))}
                  </ul>
                </div>
-               
+
             </div>
           </div>
-          
+
           <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 font-medium">
              <p>© FANTASTIK 2026. All rights reserved. • <a href="#" className="hover:text-gray-900 underline decoration-gray-300 pointer-events-auto">Privacy Policy</a></p>
              <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-gray-900 flex items-center gap-1 mt-4 md:mt-0">
