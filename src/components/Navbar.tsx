@@ -8,7 +8,7 @@ export function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 md:p-6 px-6 md:px-12 pointer-events-none"
     >
       <div className="font-display font-bold text-3xl tracking-tighter text-gray-900 pointer-events-auto cursor-pointer uppercase">
-        GROWIE.
+        FANTASTIK.
       </div>
       
       <div className="hidden md:flex items-center gap-8 bg-white/70 backdrop-blur-md rounded-full px-8 py-3 border border-white shadow-sm pointer-events-auto">

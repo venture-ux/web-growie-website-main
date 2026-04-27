@@ -28,7 +28,7 @@ export function Footer() {
             <div className="relative">
               <span className="absolute -left-12 -top-8 text-7xl font-serif text-gray-900 leading-none">"</span>
               <p className="text-2xl md:text-4xl font-display font-medium text-gray-900 leading-[1.3] tracking-tight mb-12">
-                GROWIE has completely revolutionized our content pipeline. We used to spend days on carousels and posters, now everything is generated at an agency-standard quality instantly. They excel in programmatic graphics and big-picture scale.
+                FANTASTIK has completely revolutionized our content pipeline. We used to spend days on carousels and posters, now everything is generated at an agency-standard quality instantly. They excel in programmatic graphics and big-picture scale.
               </p>
             </div>
             
@@ -59,7 +59,7 @@ export function Footer() {
           <div className="mb-12">
              <div className="font-display font-bold text-xl tracking-tight text-gray-900 flex items-center gap-2 mb-8 uppercase">
                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6"><path d="M12 2L2 22h20L12 2z" fill="black"/></svg>
-               GROWIE
+               FANTASTIK
              </div>
           </div>
           
@@ -79,7 +79,7 @@ export function Footer() {
                
                <div>
                  <p className="text-sm font-bold text-gray-900 mb-1">Don't like the forms? Drop us a line via email.</p>
-                 <a href="mailto:info@growie.io" className="text-sm font-bold text-gray-900 underline decoration-gray-400 underline-offset-4 hover:decoration-gray-900">info@growie.io</a>
+                 <a href="mailto:hello@fantastik.io" className="text-sm font-bold text-gray-900 underline decoration-gray-400 underline-offset-4 hover:decoration-gray-900">hello@fantastik.io</a>
                </div>
             </div>
             
@@ -94,7 +94,7 @@ export function Footer() {
                  <div className="space-y-6">
                    <div>
                      <p className="text-sm text-gray-500 mb-1">Our Email</p>
-                     <p className="text-sm font-medium text-gray-900 underline decoration-gray-400 underline-offset-4">info@growie.io</p>
+                     <p className="text-sm font-medium text-gray-900 underline decoration-gray-400 underline-offset-4">hello@fantastik.io</p>
                    </div>
                    <div>
                      <p className="text-sm text-gray-500 leading-relaxed">San Francisco, CA 2<br/>Embarcadero Center, 8<br/>floor, 94111</p>
@@ -130,7 +130,7 @@ export function Footer() {
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 font-medium">
-             <p>© GROWIE 2026. All rights reserved. • <a href="#" className="hover:text-gray-900 underline decoration-gray-300 pointer-events-auto">Privacy Policy</a></p>
+             <p>© FANTASTIK 2026. All rights reserved. • <a href="#" className="hover:text-gray-900 underline decoration-gray-300 pointer-events-auto">Privacy Policy</a></p>
              <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:text-gray-900 flex items-center gap-1 mt-4 md:mt-0">
                Back to the top <ArrowUpRight className="w-3 h-3" />
              </button>
