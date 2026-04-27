@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function Pricing() {
   return (
-    <section className="py-24 px-6 md:px-12 bg-[#f4f5f6] relative z-20">
+    <section id="pricing" className="py-24 px-6 md:px-12 bg-[#f4f5f6] relative z-20">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-xs font-bold tracking-widest uppercase mb-6 text-gray-800">Pricing</p>
@@ -17,7 +17,7 @@ export function Pricing() {
            {/* Left Card */}
            <div className="bg-white rounded-[2rem] md:rounded-[3rem] p-10 md:p-14 relative overflow-hidden min-h-[500px] flex flex-col justify-end shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100">
               {/* Vibrant abstract card representation */}
-              <motion.div 
+              <motion.div
                 animate={{ y: [-10, 10, -10], rotate: [-12, -14, -12] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute top-10 left-10 md:-left-4 w-96 h-56 rounded-[2rem] bg-gradient-to-tr from-green-600 via-pink-500 to-blue-600 shadow-2xl border border-white/20 p-6 text-white transform -rotate-12 flex flex-col justify-between overflow-hidden"
@@ -30,7 +30,7 @@ export function Pricing() {
                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
                    </div>
                 </div>
-                <div className="relative z-10 font-mono text-xs tracking-widest uppercase opacity-90 mt-auto font-bold mix-blend-overlay">Monthly Club</div>
+                <div className="relative z-10 font-mono text-xs tracking-widest uppercase opacity-90 mt-auto font-bold mix-blend-overlay">FANTASTIK Club</div>
               </motion.div>
 
               <div className="relative z-10">
@@ -39,7 +39,7 @@ export function Pricing() {
                   Start today
                 </div>
                 <h3 className="text-4xl md:text-5xl font-display font-medium leading-[1.1] tracking-tight">
-                  Join<br/>GROWIE
+                  Join<br/>FANTASTIK
                 </h3>
               </div>
            </div>
@@ -52,12 +52,12 @@ export function Pricing() {
                    Pause or cancel anytime
                  </span>
               </div>
-              
+
               <div className="border-b border-dashed border-gray-700 mb-8 w-full block relative z-10"></div>
 
               <div className="mb-6 relative z-10">
                 <span className="inline-block bg-[#1f0b14] text-[#ff1e83] border border-[#ff1e83]/30 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                  Lifetime Discount - Limited Time
+                  Most Popular — Save $1,000/mo
                 </span>
                 <div className="flex items-baseline gap-4">
                   <span className="text-5xl md:text-6xl font-display font-medium tracking-tight">$4,995<span className="text-xl text-gray-300 font-medium tracking-normal ml-1">/month</span></span>
@@ -70,13 +70,13 @@ export function Pricing() {
                    Included
                  </span>
                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 text-[13px] md:text-sm font-medium text-gray-200 mt-2">
-                   <li>Unlimited generations</li>
-                   <li>Agency-grade templates</li>
-                   <li>Avg. 2 second delivery</li>
-                   <li>Up to 5 API keys</li>
-                   <li>Unlimited brands</li>
-                   <li>Pause or cancel anytime</li>
-                   <li>E-commerce & Ads Access</li>
+                   <li className="flex items-center gap-2"><span className="text-emerald-400 font-bold">✓</span> Unlimited generations</li>
+                   <li className="flex items-center gap-2"><span className="text-emerald-400 font-bold">✓</span> Agency-grade templates</li>
+                   <li className="flex items-center gap-2"><span className="text-emerald-400 font-bold">✓</span> Avg. 2 second delivery</li>
+                   <li className="flex items-center gap-2"><span className="text-emerald-400 font-bold">✓</span> Up to 5 API keys</li>
+                   <li className="flex items-center gap-2"><span className="text-emerald-400 font-bold">✓</span> Unlimited brands</li>
+                   <li className="flex items-center gap-2"><span className="text-emerald-400 font-bold">✓</span> Pause or cancel anytime</li>
+                   <li className="flex items-center gap-2"><span className="text-emerald-400 font-bold">✓</span> E-commerce & Ads Access</li>
                  </ul>
               </div>
 
@@ -85,7 +85,7 @@ export function Pricing() {
                   <div className="bg-[#ff6a00] p-3 md:p-4 rounded-xl flex items-center justify-center text-black shadow-sm">
                      <ArrowRight strokeWidth={2.5} className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </div>
-                  <span className="font-semibold text-sm">Join today</span>
+                  <span className="font-semibold text-sm">Get started today</span>
                 </button>
               </div>
 

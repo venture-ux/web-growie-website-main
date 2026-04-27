@@ -67,7 +67,7 @@ export function Hero() {
           <div className="h-5 w-[1px] bg-gray-200" />
           <div className="flex items-center gap-3">
             <span className="text-[10px] font-bold tracking-wider text-yellow-700 uppercase bg-yellow-50 px-2 py-0.5 rounded-md border border-yellow-100 hidden sm:block">Gold Verified</span>
-            <span className="text-sm font-medium text-gray-500">Agencies & Brands love automating with us, <span className="text-gray-900 underline decoration-gray-300 underline-offset-4 cursor-pointer hover:text-black">40+ Reviews</span></span>
+            <span className="text-sm font-medium text-gray-500">Trusted by agencies & brands across Asia, <span className="text-gray-900 underline decoration-gray-300 underline-offset-4 cursor-pointer hover:text-black">40+ Reviews</span></span>
           </div>
         </motion.div>
       </div>

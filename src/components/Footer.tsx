@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 export function Footer() {
   return (
     <>
-      <section className="py-32 px-6 md:px-12 bg-white relative z-20">
+      <section id="testimonials" className="py-32 px-6 md:px-12 bg-white relative z-20">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-16">
           <div className="flex flex-col justify-between max-w-xs">
             <div>

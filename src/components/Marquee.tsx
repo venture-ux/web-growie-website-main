@@ -1,6 +1,6 @@
 export function Marquee() {
   const logos = [
-    "Uber", "Oracle", "Intel", "New Balance", "State Farm", "Upside", "GoFundMe", "Nutanix"
+    "Shopline", "Shopify", "Meta Ads", "TikTok Shop", "Lazada", "Shopee", "WooCommerce", "Klaviyo"
   ];
 
   return (

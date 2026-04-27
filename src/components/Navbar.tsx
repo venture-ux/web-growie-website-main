@@ -12,10 +12,10 @@ export function Navbar() {
       </div>
       
       <div className="hidden md:flex items-center gap-8 bg-white/70 backdrop-blur-md rounded-full px-8 py-3 border border-white shadow-sm pointer-events-auto">
-        <a href="#" className="text-sm font-medium text-gray-700 hover:text-black transition-colors">Features</a>
-        <a href="#" className="text-sm font-medium text-gray-700 hover:text-black transition-colors">Templates</a>
-        <a href="#" className="text-sm font-medium text-gray-700 hover:text-black transition-colors">Pricing</a>
-        <a href="#" className="text-sm font-medium text-gray-700 hover:text-black transition-colors">Wall of Love</a>
+        <a href="#services" className="text-sm font-medium text-gray-700 hover:text-black transition-colors">Features</a>
+        <a href="#portfolio" className="text-sm font-medium text-gray-700 hover:text-black transition-colors">Templates</a>
+        <a href="#pricing" className="text-sm font-medium text-gray-700 hover:text-black transition-colors">Pricing</a>
+        <a href="#testimonials" className="text-sm font-medium text-gray-700 hover:text-black transition-colors">Wall of Love</a>
       </div>
 
       <div className="flex items-center gap-4 pointer-events-auto">

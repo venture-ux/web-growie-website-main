@@ -7,7 +7,7 @@ export function LatestCases() {
   const cases = CASES_IMAGES;
 
   return (
-    <section className="bg-[#111111] py-32 px-6 md:px-12 relative overflow-hidden text-white z-20 font-sans">
+    <section id="cases" className="bg-[#111111] py-32 px-6 md:px-12 relative overflow-hidden text-white z-20 font-sans">
       {/* Background Decorative Circles */}
       <div className="absolute top-0 -left-64 w-[500px] h-[500px] border-[40px] border-[#1a1a1a] rounded-full opacity-50" />
       <div className="absolute top-[400px] -left-64 w-[500px] h-[500px] border-[40px] border-[#1a1a1a] rounded-full opacity-50" />

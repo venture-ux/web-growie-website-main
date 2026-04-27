@@ -10,9 +10,9 @@ export const PORTFOLIO_IMAGES = [
     height: "h-[450px]"
   },
   {
-    title: "Social Media — Carousel Series",
+    title: "FMCG — Promo E-commerce Poster",
     span: "md:col-span-5",
-    img: "/posters/carousel-series-grid.png",
+    img: "/posters/beauty-sunscreen-bold.png",
     height: "h-[450px]"
   },
   {

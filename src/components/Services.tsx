@@ -3,13 +3,13 @@ import { ArrowUpRight } from 'lucide-react';
 
 export function Services() {
   return (
-    <section className="py-24 px-6 md:px-12 bg-white rounded-t-[3rem] relative z-20">
+    <section id="services" className="py-24 px-6 md:px-12 bg-white rounded-t-[3rem] relative z-20">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
            <div>
              <span className="text-sm font-medium text-gray-500 mb-6 block font-mono">01 — Graphic Automations</span>
              <h2 className="text-3xl md:text-5xl font-sans font-medium text-gray-800 max-w-3xl leading-tight">
-               We provide carousel automations and <span className="text-gray-400">e-commerce poster automations</span> at production and agency standards.
+               Programmatic e-commerce posters and carousel automations — <span className="text-gray-400">agency quality, machine speed.</span>
              </h2>
            </div>
            
