@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { useRef } from 'react';
+import { SHOWCASE_IMAGES } from '../data/images';
 
 export function DarkShowcase() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -12,15 +13,7 @@ export function DarkShowcase() {
   const y2 = useTransform(scrollYProgress, [0, 1], [150, -300]);
   const y3 = useTransform(scrollYProgress, [0, 1], [0, -100]);
 
-  const images = [
-    "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1600100780283-e289c09bfd4e?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1507238692062-5a042c8b04d1?auto=format&fit=crop&q=80&w=600",
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600",
-  ];
+  const images = SHOWCASE_IMAGES;
 
   return (
     <section ref={containerRef} className="bg-[#0a0a0a] min-h-screen pt-32 pb-40 px-6 md:px-12 relative overflow-hidden -mt-10 z-10 rounded-t-[3rem]">

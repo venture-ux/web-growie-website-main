@@ -1,45 +1,9 @@
 import { ArrowUpRight } from 'lucide-react';
 import { motion } from 'motion/react';
+import { PORTFOLIO_IMAGES } from '../data/images';
 
 export function Portfolio() {
-  const portfolios = [
-    {
-      title: "Fashion - E-commerce Poster",
-      span: "md:col-span-7",
-      img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200",
-      height: "h-[450px]"
-    },
-    {
-      title: "B2B SaaS - LinkedIn Carousel",
-      span: "md:col-span-5",
-      img: "https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&q=80&w=800",
-      height: "h-[450px]"
-    },
-    {
-      title: "Real Estate - Promo Asset",
-      span: "md:col-span-5",
-      img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
-      height: "h-[400px]"
-    },
-    {
-      title: "Fintech - Dynamic Ad Creative",
-      span: "md:col-span-7",
-      img: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&q=80&w=1200",
-      height: "h-[400px]"
-    },
-    {
-      title: "DTC Brand - Ad Generator",
-      span: "md:col-span-6",
-      img: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=1000",
-      height: "h-[450px]"
-    },
-    {
-      title: "Agency - Bulk Automation",
-      span: "md:col-span-6",
-      img: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000",
-      height: "h-[450px]"
-    }
-  ];
+  const portfolios = PORTFOLIO_IMAGES;
 
   return (
     <section className="py-32 px-6 md:px-12 bg-white relative z-20">

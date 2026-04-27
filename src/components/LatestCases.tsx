@@ -1,24 +1,9 @@
 import { motion } from 'motion/react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { CASES_IMAGES } from '../data/images';
 
 export function LatestCases() {
-  const cases = [
-    {
-      title: "Automated LinkedIn Carousels for Fintech",
-      desc: "Generated 500+ high-converting LinkedIn carousels for a major Fintech app using simple Notion docs as the data source.",
-      img: "https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&q=80&w=600"
-    },
-    {
-      title: "10k+ Posters for Black Friday Marketplace",
-      desc: "Programmatically generated personalized promotional e-commerce posters for every single SKU on an NFT & Digital Goods marketplace.",
-      img: "https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&q=80&w=600"
-    },
-    {
-      title: "Dynamic Ad Creatives for DTC Ecommerce",
-      desc: "Scaling Bellify's ad spend efficiently by generating thousands of localized, dynamic ad creatives in multiple languages instantly.",
-      img: "https://images.unsplash.com/photo-1600100780283-e289c09bfd4e?auto=format&fit=crop&q=80&w=600"
-    }
-  ];
+  const cases = CASES_IMAGES;
 
   return (
     <section className="bg-[#111111] py-32 px-6 md:px-12 relative overflow-hidden text-white z-20 font-sans">
